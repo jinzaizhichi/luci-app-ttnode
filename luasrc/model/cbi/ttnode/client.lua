@@ -13,7 +13,7 @@ local uci = luci.model.uci.cursor()
 local check_login = ttnode.getInitInfo()
 local isLogin = check_login.errCode == 0 and true or false
 
-m = Map(config, translate('甜糖星愿自动采集'), translate('可以帮你每日自动收取甜糖心愿的星愿，并且可以指定日期每周自动提现。填写邀请码853288支持作者！'))
+m = Map(config, translate('甜糖星愿自动采集'), translate('可以帮你每日自动收取甜糖心愿的星愿，并且可以指定日期每周自动提现。填写邀请码501768支持作者！'))
 s = m:section(TypedSection, 'global', translate('基本设置'))
 s.anonymous = true
 
