@@ -26,7 +26,7 @@
 ```
 cd lede/package/lean/  
 
-git clone https://github.com/jerrykuku/luci-app-ttnode.git  
+git clone https://github.com/wxfyes/luci-app-ttnode.git  
 
 make menuconfig #Check LUCI->Applications->luci-app-ttnode
 
@@ -37,7 +37,7 @@ make -j1 V=s #编译固件
 
 ### 如何安装
 
-🛑 [点击这里去下载最新的版本](https://github.com/jerrykuku/luci-app-ttnode/releases)  
+🛑 [点击这里去下载最新的版本](https://github.com/wxfyes/luci-app-ttnode/releases)  
 
 1.先安装依赖  
 ```
